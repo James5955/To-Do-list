@@ -25,9 +25,9 @@ function newItem(){
   });
 
  //3(i). Adding the delete button "X":
-  li.append('deleteButton')
-  deleteButton.append(document.createTextNode('X'));
-  deleteButton.on('click', deleteListItem);
+  li.append('crossOutButton')
+  crossOutButton.append(document.createTextNode('X'));
+  crossOutButton.on('click', deleteListItem);
 
  //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
    function deleteListItem(){
